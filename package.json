@@ -1,7 +1,7 @@
 {
   "name": "basic-webpack",
   "version": "0.0.0",
-  "description": "",
+  "description": "weblab03",
   "main": "webpack.config.js",
   "dependencies": {
     "babel-core": "^6.26.3",
@@ -24,11 +24,24 @@
     "webpack": "^1.12.9",
     "webpack-dev-server": "^1.14.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^5.1.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0"
+  },
   "scripts": {
-    "dev": "./node_modules/.bin/webpack-dev-server --content-base src --inline --hot",
+    "dev": "webpack-dev-server --content-base src --inline --hot",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Josrodjr/weblab03.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Josrodjr/weblab03/issues"
+  },
+  "homepage": "https://github.com/Josrodjr/weblab03#readme"
 }
