@@ -1,0 +1,70 @@
+.options {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 10rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: 30rem;
+  overflow-y: auto;
+}
+
+.boton {
+  width: 30%;
+  height: 5rem;
+}
+
+/* #Nephritis Flat Button
+==================================================*/
+.mensajeindiv {
+  vertical-align: top;
+  width: 97%;
+  height: 3rem;
+  padding: 2rem;
+  font-size: 18px;
+  color: white;
+  text-align: left;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  border: 0;
+  cursor: pointer;
+  margin: 0.3rem; 
+  margin-left: 1rem;
+}
+
+.mensajeindiv.false {
+  background: #CC8A19;
+}
+
+.mensajeindiv.true {
+  background: #27AE60;
+}
+
+.inputbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 5rem;
+  background: green;
+  margin-top: 1rem;
+}
+
+.ingreso {
+  width: 25rem;
+  height: 4rem;
+  background: white;
+}
+
+.btninput {
+  width: 5rem;
+  height: 4rem;
+  background: greenyellow;
+}
