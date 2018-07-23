@@ -63,6 +63,10 @@
   background: rgb(161, 49, 4);
 }
 
+.mensajeindiv:hover {
+  opacity: 0.8;
+}
+
 .inputbox {
   display: flex;
   flex-direction: row;
@@ -89,4 +93,8 @@
   border-radius: 0.75rem;
   font-family: Poor Story; 
   border: 0; 
+}
+
+.btninput:hover {
+  opacity: 0.8;
 }
