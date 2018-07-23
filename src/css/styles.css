@@ -5,6 +5,7 @@
   height: 10rem;
   align-items: center;
   justify-content: center;
+  background: #9DFFC5;
 }
 
 .messages {
@@ -14,15 +15,25 @@
   width: 100%;
   height: 30rem;
   overflow-y: auto;
+  background: #9DFFC5;
 }
+
 
 .boton {
   width: 30%;
   height: 5rem;
+  border-radius: 0.5rem;
+  font-size: 25px;
+  background: #267F4B;
+  font-family: Poor Story;
+  border: 0;
+  margin: 1rem;
 }
 
-/* #Nephritis Flat Button
-==================================================*/
+.boton:hover {
+  opacity: 0.7;
+}
+
 .mensajeindiv {
   vertical-align: top;
   width: 97%;
@@ -36,14 +47,20 @@
   cursor: pointer;
   margin: 0.3rem; 
   margin-left: 1rem;
+  border-radius: 0.5rem;
+  font-family: Poor Story;
 }
 
 .mensajeindiv.false {
-  background: #CC8A19;
+  background: rgb(204, 156, 0);
 }
 
 .mensajeindiv.true {
-  background: #27AE60;
+  background: #00CC54;
+}
+
+.mensajeindiv:active {
+  background: rgb(161, 49, 4);
 }
 
 .inputbox {
@@ -53,18 +70,23 @@
   justify-content: center;
   width: 100%;
   height: 5rem;
-  background: green;
-  margin-top: 1rem;
+  background: #9DFFC5;
 }
 
 .ingreso {
   width: 25rem;
   height: 1.5rem;
   background: white;
+  font-size: 18px;
+  font-family: Poor Story;
 }
 
 .btninput {
-  width: 5rem;
+  width: auto;
   height: 2rem;
-  background: greenyellow;
+  background: #007F34;
+  font-size: 20px;
+  border-radius: 0.75rem;
+  font-family: Poor Story; 
+  border: 0; 
 }

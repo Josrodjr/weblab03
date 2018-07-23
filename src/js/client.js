@@ -109,6 +109,15 @@ const render = (newState) => {
       console.log('no se encotro un boton con ese id');
     }
   }
+
+  window.addEventListener('keyup', (e) => {
+    if (e.keyCode === 13) {
+      if (input.value !== '') {
+        state.messages.push([input.value, false]);
+        render(newState);
+      }
+    }
+  });
 };
 
 //  no poner el fetch dentro del render
